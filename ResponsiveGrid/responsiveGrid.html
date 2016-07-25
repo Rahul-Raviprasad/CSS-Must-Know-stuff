@@ -2,6 +2,18 @@
 <html>
     <head>
       <style>
+.container {
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-responsive {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
       /*  SECTIONS  */
 .section {
   clear: both;
@@ -82,28 +94,34 @@
 	}
 }
 
+.color-back {
+  background-color: grey;
+}
 .light-border {
   border: 1px solid #eee;
 }
       </style>
     </head>
     <body>
+      <div class="container">
         <div class="section group">
-          	<div class="col grid-1 light-border">
+          	<div class="col grid-1 color-back">
           	1 of 12
           	</div>
-          	<div class="col grid-2 light-border">
+          	<div class="col grid-2 color-back">
           	2 of 12
           	</div>
-          	<div class="col grid-3 light-border">
+          	<div class="col grid-3 color-back">
           	3 of 12
           	</div>
-          	<div class="col grid-1 light-border">
+          	<div class="col grid-1 color-back">
           	1 of 12
           	</div>
-          	<div class="col grid-5 light-border">
+          	<div class="col grid-5 color-back">
           	5 of 12
+            <img src="banner.jpg" class="image-responsive"><img>
           	</div>
         </div>
+      </div>
     </body>
 </html>
