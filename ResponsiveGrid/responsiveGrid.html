@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+      <style>
+      /*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.3%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWELVE  */
+.grid-12 {
+	width: 100%;
+}
+
+.grid-11 {
+  width: 91.53%;
+}
+.grid-10 {
+  width: 83.06%;
+}
+
+.grid-9 {
+  width: 74.6%;
+}
+
+.grid-8 {
+  width: 66.13%;
+}
+
+.grid-7 {
+  width: 57.66%;
+}
+
+.grid-6 {
+  	width: 49.2%;
+}
+
+.grid-5 {
+  	width: 40.73%;
+}
+
+.grid-4 {
+  	width: 32.26%;
+}
+
+.grid-3 {
+  	width: 23.8%;
+}
+
+.grid-2 {
+  	width: 15.33%;
+}
+
+.grid-1 {
+  	width: 6.866%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+
+  .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+	  width: 100%;
+	}
+}
+
+.light-border {
+  border: 1px solid #eee;
+}
+      </style>
+    </head>
+    <body>
+        <div class="section group">
+          	<div class="col grid-1 light-border">
+          	1 of 12
+          	</div>
+          	<div class="col grid-2 light-border">
+          	2 of 12
+          	</div>
+          	<div class="col grid-3 light-border">
+          	3 of 12
+          	</div>
+          	<div class="col grid-1 light-border">
+          	1 of 12
+          	</div>
+          	<div class="col grid-5 light-border">
+          	5 of 12
+          	</div>
+        </div>
+    </body>
+</html>
