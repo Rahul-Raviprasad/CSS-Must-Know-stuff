@@ -22,4 +22,18 @@ The result of the query is true if  the media type specified in  the media query
 </style>
 ```
 
-style sheets in the link tags will still download even if media queries would return(Athough they will not apply)
+style sheets in the link tags will still download even if media queries would return(Although they will not apply)
+
+## Logical operators
+Complex media queries can be formed using logcal operators like "and", "only" and "not".
+
+### "and"
+This requires each chained feature to return true in order for the query to be true.
+
+### "not"
+Negates entire media query
+
+### "only"
+this is used to apply style only when entire media query matches.
+
+Note: for "not" and "only" operators, you must specify an explicit media type.
