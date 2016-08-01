@@ -456,4 +456,19 @@ Sometimes we just have to fix something only on a specific device. Only then we 
   and (min-resolution: 192dpi) {
 }
 
+/*--------- WEARABLES --------------------*/
+/* ----------- Apple Watch ----------- */
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm) {
+
+}
+
+/* ----------- Moto 360 Watch ----------- */
+@media
+  (max-device-width: 218px)
+  and (max-device-height: 281px) {
+
+}
+
  ```
