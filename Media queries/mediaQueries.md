@@ -47,6 +47,7 @@ There can pitfalls in device specific breakpoints.
 
 Device breakpoints
 Sometimes we just have to fix something only on a specific device. Only then we should be using this.
+### Note: Please ignore the below css unless you are searching for a particular device breakpoint. 
 
  ```css
 /*---------------IPhones-------------------*/
