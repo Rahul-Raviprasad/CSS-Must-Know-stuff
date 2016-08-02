@@ -130,3 +130,63 @@ If a user clicks on an anchor link, you can style its target to make it stand ou
   color: red;
 }
 ```
+
+### The UI Element States Pseudo-Classes
+The :enabled and :disabled pseudo-classes are used to select elements in enabled and disabled states
+:checked, which again relates to input forms
+
+### The Language Pseudo-Class
+You can use the :lang pseudo-class to declare styles based on the language of an element. Assume, for example, a quote is in French, like this:
+```html
+<blockquote>
+    <p lang=”fr”>Integer aliquet, lacus in ultricies venenatis,
+  eros urna faucibus tellus, sed sollicitudin.</p>
+</blockquote>
+```
+The HTML specifies the quote is of a French language (lang=”fr”). To apply a style to only elements of French language, you can use the following:
+```css
+:lang(fr) {
+  color: blue;
+}
+```
+### The Negation Pseudo-Class
+The negation pseudo-class, :not()
+eg.
+```css
+:not(:lang(fr)) {
+  color: blue;
+}
+```
+## Pseudo-Elements
+Pseudo-elements are parts of a web page that have physical form but aren’t defined by an element—the first line of a paragraph, for example.
+
+Officially, a pseudo-element is made of two colons (::) followed by the name of the element. When you use two colons, pseudo-elements are visually distinguishable from pseudo-classes (with their one colon). However, using one colon is also acceptable, so the choice is yours. I use just one colon. you can generally config this in your linter.
+
+### Selecting the First Line
+To select the first line of text, use the pseudo-element :first-line (or ::first-line if you’re going with two colons), like so:
+```css
+p:first-line {
+  font-weight: bold;
+}
+```
+### Selecting the First Letter
+```css
+#content p:first-of-type:first-letter {
+  font-size: 4em;
+  font-weight: bold;
+}
+```
+Here, you combine quite a lot of the selectors you’ve learned so far. You use a descendant combinator to select only <p> elements within the <div id=”content” role=”main”> element. You also combine the :first-of-type pseudo-class with :first-letter, which has selected the first element of type <p>, and then select only the :first-letter from that.
+
+### Generating Content Before and After an Element
+
+Sometimes, you might want to add a style before or after an element that doesn’t warrant using another element within the HTML to do that. For this, you can use :before and :after pseudo-elements.
+Using :before and :after, add some quotation marks to the customer testimonials:
+```css
+blockquote p:before {
+  content: “\201C”; /*ASCII value for opening quotation marks*/
+}
+blockquote p:after {
+        content: “\201D”;/*ASCII value for closing quotation marks*/
+}
+```
