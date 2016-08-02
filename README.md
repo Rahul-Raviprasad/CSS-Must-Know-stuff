@@ -25,3 +25,20 @@ It starts with an older browser and then later adds new features for modern brow
 We can fetch our css files using the "<link>" tag or by using "@import".
 Link performs better than import.
 Find more here : http://www.stevesouders.com/blog/2009/04/09/dont-use-import/
+
+## Selector Specificity
+Quite simply, the most specific selector wins.
+This is known as specificity, and it is calculated in a points system, as follows: • Count the number of ID selectors in the selector
+• Count the number of class selectors, attribute selectors, and pseudo-classes in the selector
+• Count the number of type selectors and pseudo-elements in the selector
+• Ignore the universal selector
+
+IDs are deemed to be very specific (because they are unique to the page) and count as 100 points. Each class, attribute, and pseudo-class selector counts as 10 points, and each type or pseudo-element selector counts as 1 point.
+
+What if both rules are as specific as each other?
+In this case, the latter rule always wins.
+This attribution of importance is known as the cascade—where the C in CSS comes from.
+### The !important Rule
+
+The !important rule is ideal during development when you just want to see a style applied to the page, regardless of specificity.
+Note try not to use this in production.
