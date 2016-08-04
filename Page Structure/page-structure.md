@@ -23,6 +23,9 @@ When the web was accessed by fewer types of devices (mainly the only considerati
 
 With new technologies such as CSS3 and HTML5, and in particular the CSS3 media queries, the web is moving toward responsive layouts that start with a fluid structure but then change that layout based on the size of a device—something that couldn’t be done when fluid layouts were first in use.
 
+Here is a good article on Do's and Don't of Responsive design
+https://speckyboy.com/2016/06/16/mastering-responsive-web-design/
+
 ## Fluid Images
 
 It is very common to see the images broken. ie. they will be using their original width. which could be more than their container or sometimes way less than they should be.

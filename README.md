@@ -42,3 +42,6 @@ This attribution of importance is known as the cascade—where the C in CSS come
 
 The !important rule is ideal during development when you just want to see a style applied to the page, regardless of specificity.
 Note try not to use this in production.
+
+## Importance of fake loader before we provide the content
+Here is a good article on the same.
