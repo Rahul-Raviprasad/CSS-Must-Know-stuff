@@ -3,10 +3,10 @@
 It is a module of CSS that defines expressions allowing to tailor presentations to a specific range of output devices without changing the content itself.
 
 ## Syntax
-media queries consist of media type, contain zero or more expressions.
+Media queries consist of media type, contain zero or more expressions.
 
 These expressions resolve to a boolean.
-The result of the query is true if  the media type specified in  the media query matches the type of device and the document is being displayed on and all expressions in the media query are true.
+The result of the query is true if the media type specified in the media query matches the type of device and the document is being displayed on and all expressions in the media query are true.
 
 ```
 <!-- CSS media query on a link element -->
@@ -25,7 +25,7 @@ The result of the query is true if  the media type specified in  the media query
 style sheets in the link tags will still download even if media queries would return(Although they will not apply)
 
 ## Logical operators
-Complex media queries can be formed using logcal operators like "and", "only" and "not".
+Complex media queries can be formed using logical operators like "and", "only" and "not".
 
 ### "and"
 This requires each chained feature to return true in order for the query to be true.
@@ -45,9 +45,9 @@ There can pitfalls in device specific breakpoints.
 
 1. Always choose breakpoints based on your design and not you device.
 
-Device breakpoints
+#### Device breakpoints
 Sometimes we just have to fix something only on a specific device. Only then we should be using this.
-### Note: Please ignore the below css unless you are searching for a particular device breakpoint. 
+### Note: Please ignore the below css unless you are searching for a particular device breakpoint.
 
  ```css
 /*---------------IPhones-------------------*/

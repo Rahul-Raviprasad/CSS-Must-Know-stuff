@@ -7,10 +7,10 @@ List of Layout Engines https://en.wikipedia.org/wiki/List_of_layout_engines
 
 ## Web Browser Engines
 
-The first web browsers were monolithic. They used various techniques inherited from text processing, such as regular expressions[citation needed], to parse HTML into a visual representation. Later they adopted a more modular approach and were split into a host application and an engine.
+The first web browsers were monolithic. They used various techniques inherited from text processing, such as regular expressions, to parse HTML into a visual representation. Later they adopted a more modular approach and were split into a host application and an engine.
 
-#### The engine
-  does most of the work. It essentially takes a URL and a set of window (content area) rectangle coordinates as arguments. It then retrieves the document corresponding to the URL and paints a graphical representation of it in the given rectangle. It also handles links, forms, cookies, client-side scripting, plug-in loading, and other matters.
+#### The Engine
+  It does most of the work. It essentially takes a URL and a set of window (content area) rectangle coordinates as arguments. It then retrieves the document corresponding to the URL and paints a graphical representation of it in the given rectangle. It also handles links, forms, cookies, client-side scripting, plug-in loading, and other matters.
 #### The host application
   provides the menu bar, address bar, status bar, bookmark manager, history and preferences functionality (among other things). It embeds the engine and serves as an interface between the user, the engine, and the underlying operating system. Since it provides the graphical elements surrounding the area in which the engine paints documents, programmers sometimes use the term chrome to refer to its user interface (like the chrome surrounding a car).
 
