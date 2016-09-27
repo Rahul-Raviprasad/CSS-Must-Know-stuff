@@ -11,17 +11,17 @@ Fluid-width websites are often used when a page has a lot of information and the
 
 ## Fixed Width for more control
 
-If a fluid page stretched depending on the browser win- dow size, designers would have a difficult job designing a web page because they couldn’t be sure how that page would look to the users. The majority of the web started making use of the fixed-width layout
+If a fluid page stretched depending on the browser window size, designers would have a difficult job designing a web page because they couldn’t be sure how that page would look to the users. The majority of the web started making use of the fixed-width layout
 
 Fixed-width layouts are made by giving the element that contains the rest of the page’s elements a width property. The width property is usually a pixel value such as 960px, which makes the <body> element always 960px, regardless of the size of the browser.
 
 #### Why a width of 960px?
 
-When the web was accessed by fewer types of devices (mainly the only consideration was differing desktop display sizes), it was wise to use a width of 960px because the most-used screen resolution was 1,024 × 768, meaning that 960px would fit nicely into a 1,024px display (as shown in Figure 6-1), as well as anything bigger than that. If a web page is 1,260px wide and is viewed on a screen 1,024px wide, the browser has to show horizontal scroll bars to allow the user to move across to see the full
+When the web was accessed by fewer types of devices (mainly the only consideration was differing desktop display sizes), it was wise to use a width of 960px because the most-used screen resolution was 1,024 × 768, meaning that 960px would fit nicely into a 1,024px display, as well as anything bigger than that. If a web page is 1,260px wide and is viewed on a screen 1,024px wide, the browser has to show horizontal scroll bars to allow the user to move across to see the full
 
 ## Responsive design
 
-With new technologies such as CSS3 and HTML5, and in particular the CSS3 media queries, the web is moving toward responsive layouts that start with a fluid structure but then change that layout based on the size of a device—something that couldn’t be done when fluid layouts were first in use.
+With new technologies such as CSS3 and HTML5, and in particular the CSS3 media queries, the web is moving toward responsive layouts that start with a fluid structure but then change that layout based on the size of a device. Something that couldn’t be done when fluid layouts were first in use.
 
 Here is a good article on Do's and Don't of Responsive design
 https://speckyboy.com/2016/06/16/mastering-responsive-web-design/
@@ -42,4 +42,4 @@ Where a responsive design uses a fluid layout and media queries to make a web pa
 
 ## Mobile first design
 
-This mobile first mindset forces you to think about what is the most important content to display in the space available. You can then slowly build up the less relevant content as and when you have more space to play with. This approach has performance benefits too—for mobile devices that typically have less processing power and generally less bandwidth than other devices.
+This mobile first mindset forces you to think about what is the most important content to display in the space available. You can then slowly build up the less relevant content as and when you have more space to play with. This approach has performance benefits too, for mobile devices that typically have less processing power and generally less bandwidth than other devices.

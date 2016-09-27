@@ -53,7 +53,7 @@ Here is a good article on the same.
 /* ------------------------*/ /* ---------->>> GLOBAL <<<-----------*/ /* ------------------------*/
 ```
 3. Keep a library of helpful CSS classes
-4. Seperate code into blocks Examples:  Structure , Typography etc.
+4. Separate code into blocks Examples:  Structure , Typography etc.
 5. Keep containers to a minimum. “Save your document from structural bloat. New developers will use many div’s similar to table cells to achieve layout. Take advantage of the many structural elements to achieve layout. Do not add more div’s. Consider all options before adding additional wrappers (div’s) to achieve an effect when using a little nifty CSS can get you that same desired effect.” [Ryan Parr]
 6. Keep properties to a minimum. “Work smarter, not harder with CSS. Under this rule, there are a number of subrules: if there isn’t a point to adding a CSS property, don’t add it; if you’re not sure why you’re adding a CSS property, don’t add; and if you feel like you’ve added the same property in lots of places, figure out how to add it in only one place.” [CSSing173]
 7. Keep selectors to a minimum. “Avoid unnecessary selectors. Using less selectors will mean less selectors will be needed to override any particular style — that means it’s easier to troubleshoot.” [Jonathan Snook68341816]

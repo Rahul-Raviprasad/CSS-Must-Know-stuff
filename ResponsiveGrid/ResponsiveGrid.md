@@ -1,7 +1,7 @@
 # Building a Responsive Grid
 A grid system is essential when you start out to implement responsive site without using any frameworks like bootstrap or foundation.
 
-How It all fits together
+### How It all fits together
 .container
 It is basically to contain all the goodies and centers the stuff.
 
