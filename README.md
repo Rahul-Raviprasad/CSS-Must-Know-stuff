@@ -69,3 +69,7 @@ Here is a good article on the same.
 */
 ```
 10. Name your classes and IDs properly, according to their semantics. “We want to avoid names that imply presentational aspects. Otherwise, if we name something right-col, it’s entirely possible that the CSS would change and our “right-col” would end up actually being displayed on the left side of our page. That could lead to some confusion in the future, so it’s best that we avoid these types of presentational naming schemes.
+
+
+11. Add Vector Icons to Your Website
+Create your icon fonts in seconds. Make your website faster. Over 9,000 icons available.  http://fontastic.me/
