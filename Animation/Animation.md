@@ -10,3 +10,5 @@ http://waitanimate.eggbox.io/#/
 
 
 http://cssanimate.com/
+
+some good advice on animations: https://blog.gyrosco.pe/smooth-css-animations-7d8ffc2c1d29#.eny09frtw
