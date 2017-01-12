@@ -77,3 +77,6 @@ Create your icon fonts in seconds. Make your website faster. Over 9,000 icons av
 
 Resources:
 http://cssreference.io/
+
+Some Inspirations:
+http://boombangbong.com/design/textures-web-design-still-relevant/
