@@ -62,3 +62,13 @@
 
 
 ```
+
+
+## Jquery Modal
+
+This tutorial helps you build basically the same, but with few jquery functions
+http://www.jacklmoore.com/notes/jquery-modal-tutorial/
+
+
+Similarly this can also be used if jquery is present in your project
+https://github.com/kylefox/jquery-modal
