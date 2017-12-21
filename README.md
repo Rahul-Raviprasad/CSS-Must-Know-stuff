@@ -47,7 +47,7 @@ Note try not to use this in production.
 Here is a good article on the same.
 
 # Tricks
-1.  reset the user-agent styles using CSS reset
+1. Reset the user-agent styles using CSS reset
 2. Organize your css code using flags
 ```css
 /* ------------------------*/ /* ---------->>> GLOBAL <<<-----------*/ /* ------------------------*/
