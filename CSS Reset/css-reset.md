@@ -2,7 +2,19 @@
 
 A CSS Reset is a set of styles that overwrite user agent styles, making the default styles as consistent as possible across all browsers.
 
-Taken from Eric meyer Site
+The simplest reset that you can apply is by setting all elements to have zero padding, margin, border as shown below.
+
+```CSS
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+```
+
+A much more elaborate way would be as shown below
+Taken from Eric Meyer Site
 ```css
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
