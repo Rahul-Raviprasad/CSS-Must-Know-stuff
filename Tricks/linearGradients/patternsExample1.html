@@ -1,0 +1,72 @@
+<html>
+<head>
+  <style>
+  html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+body {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:stretch;
+}
+
+.box {
+  flex: 1 1 auto;
+
+}
+
+.one {
+  background: repeating-linear-gradient(45deg, #FFE11A, #FFE11A 50%, #FD7400 50%, #FD7400);
+  background-size: 20px 20px;
+}
+
+.two {
+  background-image: repeating-linear-gradient(45deg, #004C66, #004C66 1em, #008C74 1em, #008C74 50%);
+  background-size: 2em 2em;
+}
+
+.three {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 1em, #731630 1em, #731630 50%), repeating-linear-gradient(45deg, #40152A, #40152A 1em, #FF5434 1em, #FF5434 50%),;
+  background-size: 3em 3em,2em 2em;
+}
+
+.four {
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #9E2053 1em, #9E2053 50%), repeating-linear-gradient(45deg, #111626, #111626 1em, #571B3D 1em, #571B3D 50%),;
+  background-size: 3em 3em,2em 2em;
+}
+
+.five {
+  background: repeating-linear-gradient(10deg, #009393, #009393 50%, #00585F 50%, #00585F);
+  background-size: 100% 2em;
+}
+.six {
+  background-image: radial-gradient(ellipse farthest-corner at 2em 2em , #FF9E9D, #FF9E9D 50%, #FF3D7F 50%);
+  background-size: 2em 2em;
+}
+
+.seven {
+  background-image: radial-gradient(ellipse  4em 4em , #BEDB39, #BEDB39 25%, #1F8A70 25%);
+  background-size: 2em 2em;
+}
+
+.eight {
+  background-image: radial-gradient(ellipse  100% 100% , #013440, #013440 25%, transparent 25%),radial-gradient(ellipse  50% 50% , #AB1A25, #AB1A25 25%, #002635 25%);
+  background-size: 1em 1em, 2em 2em;
+}
+  </style>
+</head>
+<body>
+  <div class="box one"></div>
+  <div class="box two"></div>
+  <div class="box three"></div>
+  <div class="box four"></div>
+  <div class="box five"></div>
+  <div class="box six"></div>
+  <div class="box seven"></div>
+  <div class="box eight"></div>
+</body>
+</html>
