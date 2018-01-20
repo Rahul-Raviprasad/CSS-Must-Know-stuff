@@ -16,3 +16,6 @@ https://inkoniq.com/blog/8-worst-design-trends-every-ux-designer-should-avoid/
 ## Use empty states
 
 http://emptystat.es/
+
+
+https://lawsofux.com/
