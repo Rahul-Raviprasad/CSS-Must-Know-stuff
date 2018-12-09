@@ -84,3 +84,28 @@ http://cssreference.io/
 
 Some Inspirations:
 http://boombangbong.com/design/textures-web-design-still-relevant/
+
+W3C Homepage for CSS: www.w3.org/Style/CSS
+W3C CSS 2.1 Specification: www.w3.org/TR/CSS21
+W3C CSS Validator Service: jigsaw.w3.org/css-validator
+W3C HTML Validator Service: validator.w3.org
+W3C Mobile Web Validator: validator.w3.org/mobile
+W3C HTML Home Page: www.w3.org/MarkUp
+W3C HTML 4.01 Specification: www.w3.org/TR/html401
+W3C XHTML 1.0 Specification: www.w3.org/TR/xhtml1
+W3C Mobile Web Best Practices 1.0: www.w3.org/TR/mobile-bp
+W3C Accessibility Initiative “HTML 5” Working Group: www.whatwg.org
+Mozilla Developer Center: developer.mozilla.org/en/docs
+
+microformats.org
+www.alistapart.com
+www.simplebits.com/notebook
+www.positioniseverything.net
+css.maxdesign.com.au
+csszengarden.com
+meyerweb.com/eric/css
+dean.edwards.name/my/cssQuery
+addons.mozilla.org/firefox/60
+addons.mozilla.org/firefox/179
+css-discuss.org
+babblelist.com
