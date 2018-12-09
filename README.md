@@ -1,5 +1,9 @@
 # CSS-Must-Know-stuff
 
+## Why This Repository ?
+At first glance, CSS looks easy. The first time I changed the color on some text I thought this so easy. Only later on I understood how complicated it can get. We all know different combinations of properties and property values trigger completely different results, or a simple change in one place can completely ruin the entire page.
+It made me want to learn CSS properly and to also learn tricks and patterns to help me along. This repository collects some of my stumbling into the common CSS issues, my notes on learning it from different mediums and channels.
+
 ## The Role of CSS
 
 The main purpose of CSS is to separate structure (HTML) from presentation (CSS).
